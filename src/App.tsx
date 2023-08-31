@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FC } from "react";
+import Router from "./router/Router";
+import Header from "./components/Header";
+import { Box, Container } from "@mui/material";
 
-function App() {
+const App: FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container
+      sx={{
+        maxWidth: { xs: "100%", sm: "100%", md: "100%", lg: "1200px" },
+        display: "flex",
+        flexDirection: "column",
+        height: "calc(100vh)",
+      }}
+    >
+      <Header />
+      <Box component="main" sx={{ flexGrow: 1 }}>
+        <Router />
+      </Box>
+    </Container>
   );
-}
+};
 
 export default App;

@@ -1,24 +1,28 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES6",
+//    "useDefineForClassFields": true,
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "ES6"
     ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "useUnknownInCatchVariables": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
+
   },
   "include": [
     "src"
