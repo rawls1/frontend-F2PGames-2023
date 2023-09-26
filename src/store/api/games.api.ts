@@ -4,7 +4,7 @@ import { transformData } from "../../utils/transformData";
 
 const API_URL = "https://free-to-play-games-database.p.rapidapi.com/api/";
 const API_HEADERS = {
-  // "X-RapidAPI-Key": "44f8c92470mshcb16ce674b1f147p120d90jsnc5a8ee03ee45",
+  "X-RapidAPI-Key": "44f8c92470mshcb16ce674b1f147p120d90jsnc5a8ee03ee45",
   "X-RapidAPI-Host": "free-to-play-games-database.p.rapidapi.com",
 };
 
