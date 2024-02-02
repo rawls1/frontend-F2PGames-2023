@@ -1,4 +1,4 @@
-# Тестовое задание для стажёра Frontend
+# Интерфейс для сайта Free-To-Play Games
 
 Разработать интерфейс для сайта [Free-To-Play Games](https://www.freetogame.com/), состоящий из двух страниц.
 
